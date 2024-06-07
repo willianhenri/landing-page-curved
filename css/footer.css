@@ -1,0 +1,103 @@
+footer  {
+    background-color: hsl(192, 100%, 9%);
+    display: flex;
+    padding: 50px 70px;
+    justify-content: space-around;
+}
+
+.main-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.logo {
+    width: 240px;
+}
+
+footer p {
+    color: white;
+    width: 300px;
+    font-size: 14px;
+}
+
+.phone, .email {
+    display: flex;
+    gap: 15px;
+}
+
+
+.news {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+h4 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.news p {
+    width: 320px;
+}
+
+form {
+    display: flex;
+    gap: 12px;
+    
+}
+
+form input {
+    padding: 10px 10px;
+    border-radius: 10px;
+    width: 250px;
+}
+
+form button {
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    padding: 15px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: hsl(321, 100%, 78%);
+}
+
+@media (max-width: 500px) {
+    .curve-5 {
+        background-image: url('../images/bg-footer-top-mobile.svg');
+    }
+    
+    footer {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 50px;
+        padding: 15px 30px;
+    }
+
+    form {
+        flex-direction: column;
+    }
+
+    form input {
+        width: 100%;
+        padding: 20px 10px;
+    }
+
+    .btn-footer {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    form button {
+        width: 50%;
+        
+    }
+
+    
+}
